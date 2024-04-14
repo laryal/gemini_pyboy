@@ -1,9 +1,12 @@
 # gemini_pyboy
 Get Google's Gemini Pro to play Pokemon with the Gemini API, Twitch and PyBoy
 # Getting Started
+
+```
 pip install -q -U google-generativeai
 pip install pyboy==1.5.6
 pip install twitchio==2.9.1
+```
 
 Clone this repository and add in your own credentials in creds.py (websites to obtain tokens/keys in creds.py)
 
