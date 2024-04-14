@@ -15,3 +15,9 @@ When you have created an Access Token for your Twitch channel and a Gemini proje
 Run gameboy_agent_gemini.py and then type a message in the chat on your Twitch channel. Gemini should reply with a set of moves (goes to PyBoy) and a message in the Twitch chat! 
 
 Try to make your own Gemini Plays Pokemon!
+
+## If Twitch API is down:
+try adding the following before bot.run() in gameboy_agent_gemini.py
+gemini_completion("Press start")
+gemini_completion("Press A")
+gemini_completion("Go up and right to leave the room")
