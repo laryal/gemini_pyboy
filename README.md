@@ -17,7 +17,7 @@ Run gameboy_agent_gemini.py and then type a message in the chat on your Twitch c
 Try to make your own Gemini Plays Pokemon!
 
 ## If Twitch API is down:
-try adding the following before bot.run() in gameboy_agent_gemini.py
+try adding the following before bot.run() in gameboy_agent_gemini.py to see how Gemini would reply
 gemini_completion("Press start")
 gemini_completion("Press A")
 gemini_completion("Go up and right to leave the room")
